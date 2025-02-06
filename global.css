@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    header {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: 10%;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        width: 30rem;
+        justify-content: space-between
+    }
+
+    header h1 {
+        color: #000000;
+        font-size: 2rem;
+    }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-image: url(https://wallpapers.com/images/featured/imagens-de-perfil-legais-13pu7815v42uvrsg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 0, 0);
+    height: 90vh;
+    font-size:2rem;
+}
+
+h1 {
+    color: #333;
+}
+
+#task-giver {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vh;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    flex-direction: column;
+}
+
+#task-added {
+    padding: 1vh;
+    font-size: 1.6vh;
+    border: 0.1vh solid #ccc;
+    border-radius: 0.4vh;
+    width: 30vh;
+    margin-right: 1vh;
+}
+
+ul {
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 1vh 2vh;
+    font-size: 1.6vh;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 0.4vh;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+}
